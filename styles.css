@@ -670,6 +670,9 @@ footer img {
         margin-top: 50px;
         width: 1000px;
     }
+    .detail-bold{
+        margin-right: 10px;
+    }
     #ingredients ul li {
         line-height: 2em;
     }
@@ -683,12 +686,98 @@ footer img {
     }
     #side_dishes {
         width: 1280px;
-        display: block;
         height: 500px;
+    }
+    #side_dishes img {
+        max-height: 50%;
+    }
+    #side_dishes img:first-of-type {
+        top: 1em;
+        right: -5em;
+        position: relative;
     }
     #side_dishes h2 {
         top: 65em;
         left: 13em;
+    }
+    #side_dishes h3:first-of-type {
+        margin-left: 160px;
+        position: relative;
+        font-size: 25px;
+        top: 12em;
+    }
+    #side_dishes p:first-of-type {
+        margin-left: 96px;
+        top: 6em;
+    }
+    #side_dishes img:nth-of-type(2) {
+        top: 2.5em;
+        left: -1.5em;
+        position: relative;
+    }
+    #side_dishes p {
+        margin-left: 159px;
+        width: 20%;
+    }
+    #side_dishes p:nth-of-type(2) {
+        position: relative;
+        top: 8.5em;
+        left: -5em;
+    }
+    #side_dishes h3:nth-of-type(2) {
+        position: relative;
+        left: 15em;
+        top: .1em;
+    }
+    #side_dishes p:nth-of-type(4) {
+        position: relative;
+        top: 10em;
+        left: -11em;
+    }
+    #side_dishes p:nth-of-type(3) {
+        position: relative;
+        top: 7em;
+        left: -11em;
+    }
+    #side_dishes img:nth-of-type(3) {
+        position: relative;
+        left: -8.25em;
+        top: 2.3em;
+    }
+    #side_dishes p:nth-of-type(5) {
+        position: relative;
+        top: 7em;
+        left: -14em;
+    }
+    #side_dishes h3:nth-of-type(3) {
+        position: relative;
+        top: 26px;
+        left: 230px;
+    }
+    #side_dishes p:nth-of-type(6) {
+        position: relative;
+        top: 10em;
+        left: -17em;
+    }
+    #side_dishes img:nth-of-type(4) {
+        position: relative;
+        left: -16.25em;
+        top: 2.3em;
+    }
+    #side_dishes h3:nth-of-type(4) {
+        position: relative;
+        top: 1em;
+        left: 4em;
+    }
+    #side_dishes p:nth-of-type(7) {
+        position: relative;
+        top: 7em;
+        left: -25em;
+    }
+    #side_dishes p:nth-of-type(8) {
+        position: relative;
+        top: 10em;
+        left: -25em;
     }
     #connect {
         width: 1280px;
@@ -709,9 +798,10 @@ footer img {
     }
     footer p {
         top: 15em;
-        left: -17em;
+        left: -18em;
     }
     footer p:nth-child(2) {
         top: 12em;
+        left: -18em;
     }
 }
